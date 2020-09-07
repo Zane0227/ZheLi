@@ -1,0 +1,35 @@
+html {
+    font-size : 20px;
+}
+input{
+    width: 15.5rem;
+    height: 3rem;
+    outline-style: none ;
+    border: 1px solid #F5F5F5; 
+    border-radius: 2.5rem;
+    background-color: #F5F5F5;
+    font-size: 0.8rem;
+    padding-left: 1.5rem; 
+}
+.iPhone{
+    margin-left: -0.5rem;
+}
+.Back{
+    margin-left: 0.7rem;
+    margin-top: 2rem;
+}
+.DengLu{
+    text-align: center;
+    margin-top: 2rem;
+}
+.Email{
+    margin-left: 0.5rem;
+    margin-top: 2.5rem;
+}
+.Password{
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+}
+.WanCheng{
+
+}
