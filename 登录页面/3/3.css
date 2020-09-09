@@ -1,121 +1,155 @@
 html {
-    font-size : 20px;
+    font-size: 20px;
 }
-input{
+
+input {
     height: 3rem;
-    outline-style: none ;
-    border: 1px solid #FFFFFF; 
+    outline-style: none;
+    border: 1px solid #FFFFFF;
     border-radius: 2.5rem;
     background-color: #FFFFFF;
     font-size: 0.8rem;
-    padding-left: 1rem; 
+    padding-left: 1rem;
     padding-top: -1rem;
-    font-size: 0.9rem;;
+    font-size: 0.9rem;
     color: #818181;
     font-weight: lighter;
 }
-#body1{
-    filter:blur(0px);
+
+#body1 {
+    filter: blur(0px);
 }
 
-#TuiJian{
-    margin-left: 1rem;;
-    margin-top:1rem;
-    color:#6E6D6D;
+#TuiJian {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: #6E6D6D;
     font-weight: normal;
-    font-size:1.5rem;
+    font-size: 1.5rem;
 }
-.iPhone{
+
+.iPhone {
     margin-left: -0.5rem;
 }
-.Search{
+
+.Search {
     margin-top: 1rem;
-    margin-left:0.5rem;
+    margin-left: 0.5rem;
     width: 17rem;
     height: 3rem;
-    border: 1px solid #F5F5F5; 
+    border: 1px solid #F5F5F5;
     border-radius: 2.5rem;
-    float:left;
-    box-shadow:1px 1px 3px #F5F5F5;
+    float: left;
+    box-shadow: 1px 1px 3px #F5F5F5;
 }
-.Nice{
+
+.Nice {
     display: inline-block;
-    vertical-align:middle;
+    vertical-align: middle;
     padding-right: 1.2rem;
-    border-right:2px solid #F5F5F5;
-    
+    border-right: 2px solid #F5F5F5;
+
 }
-.find{
+
+.find {
     display: inline-block;
 }
-.City{
+
+.City {
     width: 18.5rem;
-    margin-top:5.5rem;
+    margin-top: 5.5rem;
     color: #F5F5F5;
     margin-left: 0rem;
 }
 
-.RQ{
-    margin-left: 1rem;;
-    margin-top:1rem;
-    color:#6E6D6D;
+.RQ {
+    margin-left: 1rem;
+    ;
+    margin-top: 1rem;
+    color: #6E6D6D;
     font-weight: normal;
-    font-size:1rem;
+    font-size: 1rem;
     font-weight: bold;
 }
-.First{
+
+.First {
     margin-left: -0.5rem;
     margin-top: 0.2rem;
 }
-.second{
+
+.second {
     margin-left: -0.5rem;
     position: relative;
 }
-#Daka{
+
+#Daka {
     position: absolute;
-    margin-left: -14rem;
-    margin-top: -9rem;
-    filter:blur(-1px);
-    display: none;
-    translate: 1s;
+    margin-left: 0.7rem;
+    margin-top: -11.9rem;
+    filter: blur(-1px);
 }
-#XINQING{
+
+#XINQING {
     position: absolute;
-    margin-left: -5.5rem;
-    margin-top: -9rem;
-    display: none;
+    margin-left: 10rem;
+    margin-top: -12rem;
 }
-.Dock{
+
+#Dock {
     width: 375px;
     height: 85px;
     background-image: url(http://lzngg.cn/tab_tray.png);
-    position:fixed;
-    bottom:0px;
-    
+    position: fixed;
+    bottom: 0px;
+
 }
-.love{
+
+.love {
     display: inline-block;
-    position:relative;
+    position: relative;
     margin-left: 3.5rem;
     bottom: 1.3rem;
 }
-.plus{
+
+.plus {
     display: inline-block;
     margin-left: -0.3rem;
     margin-bottom: 1rem;
-    position:relative;
+    position: relative;
     bottom: 1.3rem;
 }
-.chat{
+
+.chat {
     display: inline-block;
-    position:relative;
+    position: relative;
     margin-left: -0.3rem;
     bottom: 1.3rem;
 }
-.mine
-{
+
+.mine {
     display: inline-block;
-    position:relative;
+    position: relative;
     margin-left: -0.3rem;
     bottom: 1.3rem;
+}
+
+#button {
+    width: 78px;
+    height: 78px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .5s;
+}
+
+.fade-enter,
+.fade-leave-to
+
+/* .fade-leave-active below version 2.1.8 */
+    {
+    opacity: 0;
 }

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./3/3.css" type="text/css" />
     <title>Document</title>
     <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body id="body1">
     <div class="iPhone">
@@ -34,13 +35,13 @@
         <img src="./3/QJ.png" alt="">
     </div>
 
-    <div class="Dock">
+    <div id="Dock">
         <div class="love">
             <img src="3/shoucang.png" alt="">
         </div>
      
       <div class="plus" >
-        <a href="#" onclick="changeBackgroundColor()"><img src="3/plus.png" alt=""></a>
+        <button v-on:click="seen = !seen" id="button"><img src="3/plus.png" alt=""></button>
       </div>
 
       <div class="chat">
@@ -48,22 +49,32 @@
       </div>
       <div class="mine">
         <img src="3/mine.png" alt="">
-        <div id="Daka">
-            <img src="./3/DAKA.png" alt="">
-        </div>
-        <div id="XINQING">
-            <img src="./3/XINQING.png" alt="">
-        </div>
       </div>
+
+      <div id="Daka">
+        <transition name="fade">
+        <p v-if="seen">
+        <img src="./3/DAKA.png" alt="">
+        </p>
+        </transition>
+     </div>
+     <div id="XINQING">
+        <transition name="fade">
+        <p v-if="seen">
+        <img src="./3/XINQING.png" alt="">
+        </p>
+        </transition>
+     </div>
+
     </div>
 
     <script>
-        function changeBackgroundColor() {
-            var obj1 =document.getElementById("Daka");
-            obj1.style.cssText = "display: table-row;"
-            var obj2 =document.getElementById("XINQING");
-            obj2.style.cssText = "display: table-row;"
-        }
+       var app3 = new Vue({
+            el: '#Dock',
+            data: {
+                seen: false
+            }
+        })
     </script>
 </body>
 </html>
