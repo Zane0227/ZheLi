@@ -84,15 +84,14 @@ input {
 
 #Daka {
     position: absolute;
-    margin-left: 0.7rem;
-    margin-top: -11.9rem;
-    filter: blur(-1px);
+    left: 0rem;
+    bottom: 3.5rem;
 }
 
 #XINQING {
     position: absolute;
-    margin-left: 10rem;
-    margin-top: -12rem;
+    right: 0.2rem;
+    bottom: 3.5rem;
 }
 
 #Dock {
@@ -101,7 +100,7 @@ input {
     background-image: url(http://lzngg.cn/tab_tray.png);
     position: fixed;
     bottom: 0px;
-
+    
 }
 
 .love {
@@ -113,7 +112,7 @@ input {
 
 .plus {
     display: inline-block;
-    margin-left: -0.3rem;
+    margin-left: -1rem;
     margin-bottom: 1rem;
     position: relative;
     bottom: 1.3rem;
