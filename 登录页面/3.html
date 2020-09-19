@@ -34,14 +34,19 @@
     <div class="second">
         <img src="./3/QJ.png" alt="">
     </div>
+    <!-- 遮罩层实现 -->
 
+<!-- DOCK栏(包含点击) -->
     <div id="Dock">
+        <transition name="fade">
+            <div class="pop" v-show="show"></div>
+        </transition>
         <div class="love">
             <img src="3/shoucang.png" alt="">
         </div>
      
       <div class="plus" >
-        <button v-on:click="seen = !seen" id="button"><img src="3/plus.png" alt=""></button>
+        <button v-on:click="change" id="button"><img src="3/plus.png" alt=""></button>
       </div>
 
       <div class="chat">
@@ -72,7 +77,14 @@
        var app3 = new Vue({
             el: '#Dock',
             data: {
-                seen: false
+                seen: false,
+                show:false,
+            },
+            methods:{
+                change:function(){
+                    this.seen = !this.seen;
+                    this.show=!this.show;
+                }
             }
         })
     </script>
