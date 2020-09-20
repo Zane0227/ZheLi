@@ -97,7 +97,7 @@ input {
 #Dock {
     width: 375px;
     height: 85px;
-    background-image: url(http://lzngg.cn/tab_tray.png);
+    background-image: url(./tab_tray.png);
     position: fixed;
     bottom: 0px;
     

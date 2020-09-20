@@ -1,0 +1,68 @@
+html {
+    font-size: 20px;
+}
+#iPhone4{
+    margin-left: -0.5rem;
+}
+#DAKA{
+    color: #6E6D6D;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 300;
+}
+#img1{
+    margin-left: -0.5rem;
+}
+#img2{
+    margin-left: -0.5rem;
+    margin-top: -0.5rem;
+}
+#img3{
+    margin-left: -0.5rem;
+    margin-top: -0.5rem;
+}
+#Dock {
+    width: 375px;
+    height: 85px;
+    background-image: url(./tab_tray.png);
+    position: fixed;
+    bottom: 0px;
+    
+}
+
+.home {
+    display: inline-block;
+    position: relative;
+    margin-left: 0rem;
+    bottom: 1.3rem;
+}
+
+.plus {
+    display: inline-block;
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+    bottom: 1.3rem;
+}
+
+.chat {
+    display: inline-block;
+    position: relative;
+    margin-left: -0.3rem;
+    bottom: 1.3rem;
+}
+
+.mine {
+    display: inline-block;
+    position: relative;
+    margin-left: -0.3rem;
+    bottom: 1.3rem;
+}
+
+#button {
+    width: 78px;
+    height: 78px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
