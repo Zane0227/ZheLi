@@ -1,0 +1,87 @@
+html {
+    font-size: 20px;
+}
+input {
+    height: 3rem;
+    outline-style: none;
+    border: 0;  
+    /* // 去除未选中状态边框 */
+    outline: none; 
+    /* // 去除选中状态边框 */
+    border-radius: 2.5rem;
+    background-color: #F5f5f5;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+    color: #818181;
+    font-weight: lighter;
+}
+
+.iPhone {
+    margin-left: -0.8rem;
+}
+.chattext{
+    font-size:35px;
+    color:#6E6D6D;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.chatbox{
+    position: relative;
+    font-size: 15px;
+}
+.chat1{
+    margin-top: 20px;
+    position: absolute;
+    background: #FA607D;
+    color: #F8F8F8;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 40px;
+    border-radius: 10px 10px 0px 10px;
+}
+.chat2{
+    margin-top: 80px;
+    position: absolute;
+    background: #F5F5F5;
+    color: #24253D;
+    left: 20px;
+    width: 200px;
+    height: 50px;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 50px;
+    border-radius: 10px 10px 10px 0%;
+}
+.chatimg{
+    margin-top: 420px;
+    position: absolute;
+    background: #F5F5F5;
+    color: #24253D;
+    left: 20px;
+    text-align: left;
+    border-radius: 10px 10px 10px 0%;
+}
+.Search {
+    background: #F5F5F5;
+    position: fixed;
+    bottom: 30px;
+    margin-left: 0.5rem;
+    width: 16.5rem;
+    height: 3rem;
+    border: 1px solid #F5F5F5;
+    border-radius: 2.5rem;
+    float: left;
+    box-shadow: 1px 1px 3px #F5F5F5;
+}
+
+#find {
+    display: inline-block;
+}
+#shape{
+    display: inline-block;
+    margin-left: 3.5rem;
+}

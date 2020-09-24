@@ -1,0 +1,89 @@
+html {
+    font-size: 20px;
+}
+input {
+    height: 3rem;
+    width: 15rem;
+    outline-style: none;
+    border: 0;  
+    /* // 去除未选中状态边框 */
+    outline: none; 
+    /* // 去除选中状态边框 */
+    border-radius: 2.5rem;
+    background-color: #F5f5f5;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+    color: #818181;
+    font-weight: lighter;
+}
+
+.iPhone {
+    margin-left: -0.8rem;
+}
+.aboutmine{
+    font-size:35px;
+    color:#6E6D6D;
+    text-align: center;
+}
+.headimg{
+    text-align: center;
+    margin-top: 70px;
+}
+.myname{
+    font-size:18px;
+    color:#24253D;
+    text-align: center;
+}
+.Search{
+    text-align: center;
+    margin-top: 20px;
+}
+.Search:first-child{
+    margin-top: 40px;
+}
+#Dock {
+    width: 375px;
+    height: 85px;
+    background-image: url(../6/tab_tray.png);
+    position: fixed;
+    bottom: 0px;
+    
+}
+
+.home {
+    display: inline-block;
+    position: relative;
+    margin-left: 0rem;
+    bottom: 1.3rem;
+}
+
+.plus {
+    display: inline-block;
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+    bottom: 1.3rem;
+}
+
+.chat {
+    display: inline-block;
+    position: relative;
+    margin-left: -0.3rem;
+    bottom: 1.3rem;
+}
+
+.mine {
+    display: inline-block;
+    position: relative;
+    margin-left: -0.3rem;
+    bottom: 1.3rem;
+}
+
+#button {
+    width: 78px;
+    height: 78px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
